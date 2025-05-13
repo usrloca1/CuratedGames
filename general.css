@@ -1,0 +1,130 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Ubuntu:wght@500&display=swap'); /*load in a font.*/
+
+		body {
+			background-color: #000; /* set the bg color */
+			font-family: 'Cousine', monospace; /* set the font sitewide*/
+		}
+
+		hr { /* line break */
+			color: #444444; 
+		}
+
+		p { /* default text */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 18px;
+		}
+		b { /* bold text */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-weight: bold;
+			font-size: 22px;
+		}
+		h1 { /* headers */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 42px;
+		}
+		h2 { /* headers */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 34px;
+		}
+		h3 { /* headers */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 26px;
+		}
+		.comment { /* text id that makes the text tiny and grey*/
+			color: #444444;
+			font-family: 'Cousine', monospace;
+			font-size: 12px;
+		}
+		a { /* links */
+			color: #0026ff;
+			font-family: 'Cousine', monospace;
+			font-size: 18px;
+		}
+		i { /* italic text */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 18px;
+		}
+		h2 { /* subheaders */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 30px;
+		}
+
+        img:hover {
+            transform: scale(.8)
+        }
+
+		.container { /* a container :)*/
+    		max-width: 1200px;
+    		margin: 0 auto;
+    		padding: 0 20px;
+    		overflow: hidden;
+		}
+		#logo { /* for the gizmo wrench */
+    		float: left;
+    		font-size: 1.5em;
+		}
+
+		nav { /* the top navbar */
+    		float: right;
+		}
+
+		.nav-links { /* links for the navbar */
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+		}
+	
+		.nav-links li { /* for the navlinks */
+    		display: inline-block;
+    		margin-left: 20px;
+		}
+
+		.nav-links li a { /* for the navlinks */
+    		color: #fff;
+    		text-decoration: none; /* not fancy */
+    		padding: 10px 15px;
+    		display: inline-block;
+    		transition: background-color 0.3s;
+		}
+
+		.nav-links li a:hover { /* on hover, change bg to a nice color */
+    		background-color: #444444;
+		}
+
+		.content { /* main page */
+    		padding: 50px 0;
+    		text-align: center;
+		}
+
+		.main-links li { /* links that are styled like nav links, but on the main page*/
+    		display: inline-block;
+    		margin-left: 0px;
+		}
+		
+		.main-links { /* see above */
+			list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+		}
+ 
+		.main-links li a { /* more main link customization */
+			color:#fff;	
+			background-color: #444444;
+			text-decoration: none;
+    		padding: 10px 15px;
+    		display: inline-block;
+    		transition: background-color 0.3s;
+		}
+
+		.main-links li a:hover { /* on hover change to color*/
+			background-color: #444444;
+		}
