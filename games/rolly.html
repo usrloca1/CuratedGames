@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>PICO-Player</title>
+		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="icon" type="/image/x-icon" href="../favicon.ico">
+	</head>
+	<body>
+	<div align="center">
+		<!-- Wrapper -->
+		<div class="wrapper">
+			<!-- Web Player -->
+			<div id="pico-container"></div>
+		</div>
+		<!-- Script -->
+		<script src="../picoplayer.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function(event) {
+				PicoPlayer('pico-container', '../roms/Rolly.p8.png');
+			});
+		</script>
+		<a href="../gamelist.html">go back</a>
+	</div>
+	</body>
+</html>
