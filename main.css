@@ -13,6 +13,31 @@
   color: #444;
 }
 
+	.nav-links { /* links for the navbar */
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+		}
+		.nav-links li { /* for the navlinks */
+    		display: inline-block;
+    		margin-left: 20px;
+		}
+		.nav-links li a { /* for the navlinks */
+    		color: #fff;
+    		text-decoration: none; /* not fancy */
+    		padding: 10px 15px;
+    		display: inline-block;
+    		transition: background-color 0.3s ease-in;
+		}
+		.nav-links li a:hover { /* on hover, change bg to a nice color */
+    		background-color: #FFF;
+			color: #000
+		}
+		nav { /* the top navbar */
+    		float: right;
+		}
+	
+
 		body {
 			background-color: #000; /* set the bg color */
 			font-family: 'Cousine', monospace; /* set the font sitewide*/
