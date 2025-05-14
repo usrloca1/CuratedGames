@@ -1,56 +1,81 @@
-/*
-
-
-
-*/
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Cousine&family=Ubuntu:wght@500&display=swap'); /*load in a font.*/
-/*NOTE TO SELF: OLD FONT WAS VERDANA, SANS-SERIF*/
 
-body {
-  margin: 25px; 
-  padding: 10px 28px; /*this changes how close items can get to the edge of the screen*/
-  background-color: #000000; /*this changes the bg color*/
-  font-family: Ubuntu, regular; /* load in a font for the whole site */
-  font-size: 14px;
+.mwrapper {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 380px 380px 380px;
+  grid-gap: 10px;
+  background-color: #000;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: #444;
 }
 
-h1 { /*title text, used for the starg3n text on homepage*/
-  font-size: 35px;
-  font-weight: normal; /*not bold or italic*/
-  margin-top: 5px;
-  color: #FFF; /*color*/
-  text-align: center; /*align it to the center*/
-}
+		body {
+			background-color: #000; /* set the bg color */
+			font-family: 'Cousine', monospace; /* set the font sitewide*/
+			
+		}
 
-p { /* normal text, used in the update logs and other places*/
-  font-size: 20px;
-  font-weight: normal; /*not bold or italic*/
-  margin-top: 5px;
-  color: #FFF; /*color*/
-  text-align: center; /*align it to the center*/
-}
+		hr { /* line break */
+			color: #444444; 
+		}
 
-b { /*bold text. I don't know if this is used.*/
-  font-size: 20px; 
-  font-weight: normal; /*not bold or italic*/
-  margin-top: 5px; 
-  color: #FFF; /*color*/
-  text-align: center; /*align to center*/
-}
+		p { /* default text */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 18px;
+		}
+		b { /* bold text */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-weight: bold;
+			font-size: 22px;
+		}
+		h1 { /* headers */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 42px;
+		}
+		h2 { /* headers */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 34px;
+		}
+		h3 { /* headers */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 26px;
+		}
+		.comment { /* text id that makes the text tiny and grey*/
+			color: #444444;
+			font-family: 'Cousine', monospace;
+			font-size: 12px;
+		}
+		a { /* links */
+			color: #768bff;
+			font-family: 'Cousine', monospace;
+			font-size: 18px;
+		}
+		i { /* italic text */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 18px;
+		}
+		h2 { /* subheaders */
+			color: #fff;
+			font-family: 'Cousine', monospace;
+			font-size: 30px;
+		}
 
-a { /*links. a button must be INSIDE a link to work as it does*/
-  font-size: 20px;
-  font-weight: normal;
-  margin-top: 5px;
-  color: #6090fe; /*color*/
-  text-align: center; /*align it to center*/
-}
+        img:hover {
+            transform: scale(.8)
+        }
 
-/* THESE ARE FOR PICOMANAGER */
-html, body {
+
+		html, body {
   height: 100%;
 }
 
@@ -79,5 +104,4 @@ canvas { /*again, don't know.*/
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
 }
-
-/*END OF PICOMANAGER*/
+		
