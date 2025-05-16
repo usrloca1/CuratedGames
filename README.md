@@ -1,5 +1,5 @@
-# PicoCurated
-a curated list of pico-8 games playable in your browser (and offline!) using picoplayer.
+# CuratedGames
+a curated list of games playable in your browser (and offline!) using picoplayer.
 
 ## running (codespace)
 **1: open in codespace** 
