@@ -1,6 +1,11 @@
 # CuratedGames
 a curated list of games playable in your browser (and offline!) using picoplayer.
 
+## ways to run it
+- codespace (can update whenever you want using ```git pull```)
+- offline (have to download an update)
+- making a fork (can sync [update] whenever you want)
+
 ## running (codespace)
 **1: open in codespace** 
 - click the green code button 
