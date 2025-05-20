@@ -20,15 +20,21 @@ a curated list of games playable in your browser (and offline!) using picoplayer
 **2: install server and start**
 - get the extension below:
 
-![s](images/liveserver.png)
+![](images/liveserver.png)
 
 - once it's installed, select the icon on your bottom bar (shown below):
 
-![s](images/golive.png)
+![](images/golive.png)
 
-## running (local)
+## running (local \ offline)
 **download website**
 - select the latest release
 - download the zip
 - unzip to a folder
 - double click ```index.html```
+
+## deployment (gh pages)
+- fork the repo
+- go to settings/pages
+- under "branch", change "none" to "main"
+
